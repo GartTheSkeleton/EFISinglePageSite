@@ -7,7 +7,7 @@ body {
 .main-body {
   margin: auto;
   width: 70%;
-  background-color: #3d3d3d;
+  background-color: #303030;
   border-radius: 5px;
 }
 
@@ -112,6 +112,7 @@ nav a:hover {
   
 .title h2{
     font-size: 32px;
+    color:#0076CC
   }
   
 p {
