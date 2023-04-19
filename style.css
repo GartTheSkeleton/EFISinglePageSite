@@ -15,7 +15,7 @@ header {
     position: relative;
     width: 100%;
     height: auto;
-    padding-top: 150px; /* Adjust this value according to the height of your logo */
+    padding-top: 150px;
     padding-bottom: 50px;
     z-index: 5;
   }
@@ -45,7 +45,6 @@ header {
     opacity: 0;
   }
   
-  /* Center and style the navigation bar */
 /* Center and style the navigation bar */
 nav {
   display: flex;
@@ -54,7 +53,7 @@ nav {
   top: 0;
   background-color: #f1f1f1;
   padding: 10px 0;
-  white-space: nowrap; /* prevents text wrapping */
+  white-space: nowrap;
   border-radius: 5px;
   width: 100%;
   z-index: 3;
@@ -153,6 +152,19 @@ p {
   color: white;
   background-color:#0076CC;
 }
+
+@media screen and (max-width: 1250px) {
+  .links a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .links a {
+    font-size: 1rem;
+  }
+}
+
 
 footer {
   background-color: white;
