@@ -128,9 +128,9 @@ p {
 }
 
 .copy p {
-  flex: 4;
-  margin-right: 20px; /* add some spacing between text and image */
+  margin-right: 18px; /* add some spacing between text and image */
   text-align: center;
+  width: 100%;
 }
 
 .copy img {
@@ -152,4 +152,19 @@ p {
 .links a:hover{
   color: white;
   background-color:#0076CC;
+}
+
+footer {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
 }
