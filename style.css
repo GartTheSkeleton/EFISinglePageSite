@@ -157,11 +157,8 @@ p {
   .links a {
     font-size: 1.5rem;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .links a {
-    font-size: 1rem;
+  .main-body {
+    width: 90%;
   }
 }
 
