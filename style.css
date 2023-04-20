@@ -135,6 +135,7 @@ p {
 .copy img {
   flex: 1;
   max-width: 20%;
+  padding: 5px;
 }
 
 .links a{
