@@ -108,7 +108,35 @@ nav a:hover {
     padding-top: 50px;
     text-align: center;
   }
-  
+
+.content-container img{
+  width: 15%;
+  border-radius: 5px;
+}
+
+.flex-section {
+  display: flex;
+}
+
+.image-container {
+  width: 25%;
+  margin-right: 20px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.image-container img {
+  width: 80%;
+}
+
+.image-container p {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  justify-content: center;
+}
+
 .title h2{
     font-size: 32px;
     color:#0076CC;
@@ -134,8 +162,9 @@ p {
 
 .copy img {
   flex: 1;
-  max-width: 20%;
+
   padding: 5px;
+  border-radius: 10px;
 }
 
 .links a{
